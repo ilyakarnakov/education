@@ -81,3 +81,7 @@ body{
 	background-color: #eebc40;
 	color: #fff;
 }
+
+.fix{
+	clear: both;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Задание №2</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<main class="main">
+			<h1 class="title">Запись на курсы программирования</h1>
+			<hr>
+			<form class="form-prog" action="" method="POST">
+				<p class="form-prog__group">
+					<label class="form-prog__label-name">Имя:</label><br>
+					<input type="text" name="name" placeholder="Андрей" value="">
+				</p>
+
+				<p class="form-prog__group">
+					<input class="form-prog__input-lang" type="radio" name="lang" checked>
+					<label class="form-prog__label-lang">Java</label>
+
+					<input class="form-prog__input-lang" type="radio" name="lang">
+					<label class="form-prog__label-lang">C++</label>
+
+					<input class="form-prog__input-lang" type="radio" name="lang">
+					<label class="form-prog__label-lang">Python</label>
+					
+					<input class="form-prog__input-lang" type="radio" name="lang">
+					<label class="form-prog__label-lang">PHP</label>
+
+					<input class="form-prog__input-lang" type="radio" name="lang">
+					<label class="form-prog__label-lang">JavaScript</label>
+				</p>
+				<p class="form-prog__group">
+					<label class="form-prog__label-information">Дополнительная информация:</label><br>
+					<textarea class="form-prog__input-information" name="information" placeholder="Есть опыт программирования на Java"></textarea>
+				</p>
+				<p class="form-prog__group">
+					<label class="form-prog__label-pass">Секретное слово:</label><br>
+					<input class="form-prog__input-pass" type="password" name="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;">
+				</p>
+				<p class="form-prog__group">
+					<input class="form-prog__input-rules" type="checkbox" name="rules">
+					<label class="form-prog__label-rules">С правилами ознакомился и согласен</label>
+				</p>
+				<p class="form-prog__group">
+					<input class="form-prog__submit-button" type="submit" value="Отправить">
+					<input class="form-prog__reset-button" type="reset" value="Очистить"> 
+				</p>
+
+			</form>
+			<hr>
+
+		</main>
+	</body>
+</html>
